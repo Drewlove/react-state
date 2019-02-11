@@ -12,7 +12,7 @@ describe(`TheDate Component`, () => {
 
   it.skip('renders UI correctly', () => {
       expect(
-          render.createElement(<TheDate/>).toJSON()
+          renderer.create(<TheDate/>).toJSON()
       ).toMatchSnapshot()
   })
 })
